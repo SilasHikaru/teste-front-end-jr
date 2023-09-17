@@ -1,4 +1,20 @@
-# React + TypeScript + Vite
+# O projeto foi realizado com o React + TypeScript + Vite
+
+Comandos para executar o projeto:
+
+- Instalar as dependências
+```js
+   npm install
+```
+
+- Executar o projeto na máquina
+```js
+   npm run dev
+```
+
+Versão do node utilizado: 18.17.1
+
+## React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
