@@ -1,0 +1,42 @@
+$primary-color: #F71963;
+$gray1: #9F9F9F;
+
+
+.header {
+    max-width: 1280px;
+    //border: 2px solid gray;
+
+    .benefits{
+        display:flex;
+        justify-content: center;
+        gap:119px;
+        padding:7px 0px;
+
+        .benefits-item{
+            display: flex;
+            gap:9px;
+            align-items: center;
+            
+            p {
+                font-size:12px;
+                font-weight: 500;
+                color:$gray1;
+
+                span{
+                    color: $primary-color;
+                    font-weight: 600;
+                }
+            }
+
+            img{
+                width:20px;
+            }
+        }
+    }
+}
+
+.hr-header {
+    height: 1px;
+    background-color: #f0f0f0;
+    border:none;
+}

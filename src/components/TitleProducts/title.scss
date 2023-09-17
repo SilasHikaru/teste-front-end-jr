@@ -1,0 +1,28 @@
+$primary-color: #F71963;
+
+#container-titleProducts{
+    display: flex;
+    align-items: center;
+    gap: 34px;
+    margin-bottom:4px;
+    .container-hr-title{
+        width:360px;
+        display: inline-block;
+    
+        .hr-title { 
+            height: 1px;
+            background-color: #DEDEDE;
+            border:none;
+        }
+    }
+    #titulo-produto{
+        display: inline-block;
+        color: $primary-color;
+        font-size: 30px;
+        font-weight:700;
+    }
+}
+
+
+
+

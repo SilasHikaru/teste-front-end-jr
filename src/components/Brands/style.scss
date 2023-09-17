@@ -1,0 +1,40 @@
+$primary-color: #F71963;
+
+.container-brands {
+    display:grid;
+    justify-items: center;
+    margin-bottom: 80px;
+    .title-brands{
+        color: $primary-color;
+        font-size: 30px;
+        font-weight:700;
+        margin-bottom: 52px;
+    }
+    .brands{
+    
+            display: flex;
+            align-items: center;
+            .item-brand{    
+                width: 211px;
+                height:211px;
+                margin-right: 40px;
+                display: grid;
+                border-radius: 50%;
+                box-shadow: 0px 7px 20px 0px rgba(0,0,0,0.13);
+                place-items: center;
+                img {
+                    display: inline-block;
+                }
+            }
+            .postion-btn {
+                //position: relative;
+                .next-btn {
+                    position:absolute;
+                    margin-right:50px;
+                    
+                }
+            }
+            
+    }
+}
+

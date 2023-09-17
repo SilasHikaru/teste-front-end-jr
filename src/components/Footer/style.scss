@@ -1,0 +1,158 @@
+$primary-color: #F71963;
+footer{
+    width: 1440px;
+    height: 325px;
+    background-color: #2A2A2A;
+    .container-footer {
+        padding: 33px 93px 30px 93px;
+        display: flex;
+        .about {
+            width: 155px;
+            padding-top: 26px;
+            margin-right: 92px;
+            h4{
+                font-size: 13px;
+                font-weight: 700;
+                color:#fff;
+                margin-bottom: 24px;
+            }
+            p{
+                line-height: 32px;
+                font-size: 12px;
+                font-weight: 300;
+                color:#fff;
+                
+            }
+            .socialMedia{
+                margin-top: 52px;
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+        .info{
+            padding-top: 26px;
+            width: 250px;
+            h4{
+                font-size: 13px;
+                font-weight: 700;
+                color:#fff;
+                margin-bottom: 24px;
+            }
+            p{
+                line-height: 32px;
+                font-size: 12px;
+                font-weight: 300;
+                color:#fff;
+                margin-right: 47px;
+            }
+        }
+        .payment {
+
+            padding-top: 26px;
+            width: 195px;
+            height: 193px;
+            margin-right: 242px;
+
+            h4{
+                font-size: 13px;
+                font-weight: 700;
+                color:#fff;
+                margin-bottom: 24px;
+            }
+            .grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-row-gap: 27px;
+                grid-column-gap:10px;
+                place-items: center;
+            }
+
+        }
+        .container-form{
+            background-color: #fff;
+            //box-sizing: border-box;
+            height: 260px;
+            width: 380px;
+            border-radius: 10px;
+            .container-intern{
+                padding: 40px 34px 40px 29px;
+                .title-form{
+                    font-size: 18px;
+                    font-weight: 300;
+                    color:#3F3F40;
+                    margin-bottom: 15px;
+                    text-transform: uppercase;
+                    span {
+                        line-height: 26px;
+                        font-size: 21px;
+                        font-weight: 700;
+                        color: #3F3F40;
+                    }
+                }
+                .description-form{
+                    font-size: 12px;
+                    font-weight: 300;
+                    color:#3F3F40;
+                    margin-bottom: 31px;
+                    text-align: center;
+                }
+                .input-form{
+                    display: flex;
+                    justify-content: center;
+                        .input-text{
+                            width: 230px;
+                            height: 45px;
+                            border: 1px solid #2A2A2A;
+                            border-radius: 4px;
+                            margin-right: 9px;
+                        }
+                        .input-text::placeholder{
+                            font-size: 12px;
+                            font-weight: 400;
+                            color:#C0C0C0;
+                            line-height: 20px;
+                            padding-left: 25px;
+                        }
+                        .input-submit{
+                            width: 62px;
+                            height: 45px;
+                            border: none;
+                            font-size: 14px;
+                            font-weight: 700;
+                            color:#fff;
+                            background-color: $primary-color;
+                            border-radius: 4px;
+                        }
+                        
+                }
+
+            }
+        }
+    }
+    .line-footer{
+        height: 1px;
+        background-color: #f0f0f0;
+        border:none;
+    }
+    .container-copyright{
+        width: 1440px;
+        
+        background-color: #2A2A2A;
+        .container-copyright-intern{
+            padding: 19px 106px 19px 93px;
+            display: flex;
+            justify-content: space-between;
+            p{
+                font-size: 10px;
+                font-weight: 400;
+                color:#fff;
+                width:698px;
+                text-transform: uppercase;
+            }
+            .icons{
+                display: flex;
+                gap:32px;
+            }
+        }
+    }
+}
